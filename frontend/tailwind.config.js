@@ -1,5 +1,6 @@
 module.exports = {
     content: [
+        './app/**/*.{ts,tsx}',
         './pages/**/*.{ts,tsx}',
         './components/**/*.{ts,tsx}',
         // For the best performance and to avoid false positives,
