@@ -1,4 +1,4 @@
-import '../styles/globals.css'
+import '../styles/globals.scss'
 import { styles } from '../constants/style';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
