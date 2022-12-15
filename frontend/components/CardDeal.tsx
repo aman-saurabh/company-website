@@ -1,8 +1,21 @@
 import React from 'react'
+import { card } from '../public'
+import { styles, layout } from '../constants/style'
+import Button from './Button'
+import Image from 'next/image'
 
 const CardDeal = () => {
   return (
-    <div>CardDeal</div>
+    <section className={layout.section}>
+      <div className={layout.sectionInfo}>
+        <h2 className={`${styles.heading2} xs:text-[48px] text-[40px] xs:leading-[76.8px] leading-[66.8px]`}>Find a better card deal <br className='sm:block hidden' /> in few easy steps.</h2>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.</p>
+        <Button styles="mt-10" />
+      </div>
+      <div className={layout.sectionImg}>
+        <Image src={card} alt="card" className='w-[100%] h-[100%] object-contain' />
+      </div>
+    </section>
   )
 }
 
