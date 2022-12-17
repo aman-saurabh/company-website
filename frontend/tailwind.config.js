@@ -2,8 +2,8 @@ module.exports = {
     content: [
         './app/*.{ts,tsx}',
         './app/**/*.{ts,tsx}',
-        './pages/**/*.{ts,tsx}',
         './components/*.{ts,tsx}',
+        './constants/*.{js}'
         // For the best performance and to avoid false positives,
         // be as specific as possible with your content configuration.
     ],
